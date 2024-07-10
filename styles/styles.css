@@ -74,29 +74,56 @@ border: 2px solid red;
 margin: 0 auto;
 margin-top: 90px;
 }
-.box-1{
- position: absolute;
-width: 259.56px;
-height: 217.01px;
-margin-left: 2000px;
-flex-direction: row;
-}
-.box-2{
+.second-section-content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 48px;
-    
-   }
-   .box-3{
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.group-container{
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-
-   }
+}
+.left-side-content{
+    width: 50%;
+    height: 250px;
+    border: 2px solid red;
+}
+.right-side-content{
+    width: 50%;
+    height: 250px;
+    border: 2px solid red;
+}
+.group-two-container{
+    display: flex;
+}
+.group-three-container{
+    display: flex;
+}
+.btn-secondary{
+height: 24px;
+width: 109px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+}
+/* inspiration section styles here */
+.motivational-section{
+   width: 1140px;
+   height: 600px;
+   border: 2px solid red;
+}
+.motivational-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.motivational-video{
+    flex: none;
+    margin-left: 300px;
+    margin-top: 50px;
+}
    .skills-container{
     display: flex;
     gap: 24px;
