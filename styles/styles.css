@@ -70,7 +70,6 @@ padding: 21px 24px 21px 24px;
 .second-section-container{
 width: 1140px;
 height: 1395px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 90px;
 border-radius: 16px;
@@ -90,12 +89,10 @@ padding: 50px;
 .left-side-content{
     width: 50%;
     height: 250px;
-    border: 2px solid red;
 }
 .right-side-content{
     width: 50%;
     height: 250px;
-    border: 2px solid red;
 }
 .group-two-container{
     display: flex;
@@ -114,7 +111,6 @@ opacity: 0.7;
 .motivational-section{
    width: 1140px;
    height: 600px;
-   border: 2px solid red;
 }
 .motivational-content{
     display: flex;
@@ -123,6 +119,7 @@ opacity: 0.7;
     align-items: center;
 }
 .motivational-video{
+    width: 1140;
     flex: none;
     margin-left: 230px;
     margin-top: 50px;
@@ -131,8 +128,7 @@ opacity: 0.7;
     margin-top: 50px;
     display: flex;
     gap: 24px;
-    border: 2px solid red;
-    width: 1140px;
+    width: 1137px;
     height: 300px;
    }
    .current-target-content{
@@ -142,27 +138,71 @@ opacity: 0.7;
     align-items: center;
    }
    .html{
-    width: 380px;
-    border: 2px solid red;
+    width: 379px;
     height: 300px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
    }
    .css{
-    width: 380px;
-    border: 2px solid red;
+    width: 379px;
     height: 300px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
    }
    .linkedin{
-    width: 380px;
-    border: 2px solid red;
+    width: 379px;
     height: 300px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
    }
+   /* handshake part is here */
    .handshake-part{
-
+max-width: 1140px;
+height: 500px;
+margin-top: 600px;
+margin-left: 690px;
+background-image: url("/assets/handshake.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 500px;
    }
+   .handshake-part-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+font-family: "Azeret Mono";
+font-size: 20px;
+font-weight: 100;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+   }
+   .button{
+    display: flex;
+   }
+   .third-button{
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+   }
+   .fourth-button{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+   }
+   .icons{
+    display: flex;
+    margin: 0 auto;
+   }
+   .left-pera{
+    align-items: right;
+}
+   .right-icons{
+    
+   }
+
+   
    
