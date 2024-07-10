@@ -73,6 +73,9 @@ height: 1395px;
 border: 2px solid red;
 margin: 0 auto;
 margin-top: 90px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+padding: 50px;
 }
 .second-section-content{
     display: flex;
@@ -121,32 +124,45 @@ opacity: 0.7;
 }
 .motivational-video{
     flex: none;
-    margin-left: 300px;
+    margin-left: 230px;
     margin-top: 50px;
 }
    .skills-container{
+    margin-top: 50px;
     display: flex;
     gap: 24px;
-    border: 0px;
-    width: 1150px;
-    height: 460px;
+    border: 2px solid red;
+    width: 1140px;
+    height: 300px;
    }
-   .skill{
-    padding: 30px;
+   .current-target-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
-   .handshake{
-position: absolute;
-width: 1140px;
-height: 314px;
-left: 1550px;
-right: 150px;
-top: 1752px;
-bottom: 179px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 64px 48px 64px 48px;
-border-radius: 16px;
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-} 
+   .html{
+    width: 380px;
+    border: 2px solid red;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+   }
+   .css{
+    width: 380px;
+    border: 2px solid red;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+   }
+   .linkedin{
+    width: 380px;
+    border: 2px solid red;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+   }
+   .handshake-part{
+
+   }
+   
